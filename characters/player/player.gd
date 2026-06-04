@@ -9,7 +9,7 @@ var anim_fps: float = 8.0     # Frames per second for walking
 
 func _process(delta: float) -> void:
 	# 1. Handle Movement
-	var input_dir = Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
+	var input_dir = Input.get_vector("move_left", "move_right", "move_up", "move_down")
 	position += input_dir * move_speed * delta
 	
 	# 2. Handle Direction and Animation
