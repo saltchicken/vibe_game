@@ -9,4 +9,5 @@
 position = Vector2(576, 324)
 texture = ExtResource("2_sheet")
 hframes = 4
+vframes = 4
 script = ExtResource("1_script")
