@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://bb11ovs3rq8is"]
 
 [ext_resource type="Script" path="res://player.gd" id="1_script"]
-[ext_resource type="Texture2D" path="res://run_sheet.svg" id="2_sheet"]
+[ext_resource type="Texture2D" path="res://player.svg" id="2_sheet"]
 
 [node name="Node2D" type="Node2D"]
 
